@@ -2,9 +2,10 @@
   "name": "msd-shipyard",
   "version": "1.0.0",
   "description": "Starfleet shipyard records",
-  "main": "handler.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "offline": "sls offline start --skipCacheInvalidation"
   },
   "author": "Ladislav Jochman",
   "license": "ISC",
